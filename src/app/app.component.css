@@ -1,0 +1,53 @@
+a {
+  text-decoration: none;
+}
+
+.bg-faded {
+  background-color: rgba(255, 255, 255, 0.88);
+}
+
+.navbar-light .navbar-toggler {
+  border-color: #322513;
+}
+
+.navbar-light .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(50,37,19, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.navbar-logo {
+  content: url("../assets/logo.jpg");
+  opacity: 0.96;
+  border: 1px solid #322513;
+  border-radius: .25rem;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #322513;
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+  font-weight: bold;
+}
+
+.dropdown-menu {
+  background-color: rgba(255, 255, 255, 0.96);
+  border: 1px solid #322513;
+  border-radius: .25rem;
+}
+
+.dropdown-item {
+  color: #322513;
+}
+
+.dropdown-item:focus, .dropdown-item:hover {
+  font-weight: bold;
+}
+
+@media (max-width: 1023px) {
+  .navbar-brand {
+    padding: 0;
+  }
+  .navbar-logo {
+    content: url("../assets/logo-small.jpg");
+  }
+}
