@@ -1,0 +1,6 @@
+{
+  "projects": {
+    "westwater": "westwater-c5900",
+    "default": "westwater-c5900"
+  }
+}
